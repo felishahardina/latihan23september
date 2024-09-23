@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeknikKomputer">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9800"
+            android:text="Teknik Komputer"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15sp"
+            android:text="Deskripsi dan Profile"
+            android:textAlignment="center"
+            android:textColor="#FF5722"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30sp"
+            android:text="Program Studi Teknik Komputer di Politeknik Negeri Padang (PNP) merupakan program yang fokus pada pengembangan perangkat keras dan perangkat lunak. Program ini bertujuan untuk mempersiapkan mahasiswa dengan keterampilan teknis yang diperlukan untuk merancang, mengembangkan, dan mengelola sistem komputer." />
+
+        <Button
+            android:id="@+id/btnbacktekom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="50sp"
+            android:backgroundTint="#FF5722"
+            android:text="Back" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
